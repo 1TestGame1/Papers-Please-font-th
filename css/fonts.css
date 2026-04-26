@@ -90,20 +90,14 @@ body {
 }
 
 /*---- title -------------------------------------------------*/
-@font-face { 
-    font-family: 'title_tall'; 
-    src: url('../fonts/pixelplay--shnmk14.ttf'); 
-    /* เพิ่มพื้นที่ด้านบนเพื่อให้สระมีที่อยู่ ไม่ต้องลงมาทับพยัญชนะ */
-    ascent-override: 150%; 
+@font-face {
+  font-family: "title_tall";
+  src: url("../fonts/pixelplay--shnmk14.ttf");
 }
-
-.font-title_tall { 
-    font-family: 'title_tall'; 
-    font-size: 16px; 
-    /* เปลี่ยนจาก 16px เป็น 24px หรือมากกว่า เพื่อให้สระไม่จม */
-    line-height: 24px; 
-    -webkit-font-smoothing: none !important;
-    image-rendering: pixelated;
+.font-title_tall {
+  font-family: "title_tall";
+  font-size: 16px;
+  line-height: 16px;
 }
 
 @font-face {
